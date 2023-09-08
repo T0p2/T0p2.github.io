@@ -281,7 +281,8 @@ header {
 
 /*habilidades*/
 .my-services {
-    background-color: var(--clr-dark);
+    background-image: url('pexels-tima-miroshnichenko-5380618.jpg');
+    /*background-color: var(--clr-dark);*/
     color: var(--clr-light);
     background-size: cover;
     background-blend-mode: multiply;
@@ -307,7 +308,10 @@ header {
 .service {
     max-width: 500px;
     margin: 0 auto;
-    font-size: 1rem;
+    font-size: 1.2rem;
+    color: white; /* Color blanco */
+    font-weight: bolder; /* Grosor de fuente en negrita */
+    padding: 10px;
 }
 .services {
     margin-bottom: 4em;
