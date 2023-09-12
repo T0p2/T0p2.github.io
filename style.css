@@ -418,6 +418,22 @@ header {
     }
 }
 
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333; /* Cambia el color de fondo a tu elección */
+    color: #9DDFD3; /* Cambia el color del texto a tu elección */
+    text-decoration: none;
+    border-radius: 3px;
+    font-size: 14px;
+    border: none;
+}
+
+.btn:hover {
+    background-color: #0a0004; /* Cambia el color de fondo cuando el mouse se posa sobre el botón */
+}
+
 /* My Work */
 
 .my-work {
