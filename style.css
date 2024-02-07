@@ -285,10 +285,24 @@ header {
 
 
 .intro_img {
-    box-shadow: var(--bs);
+    transition: box-shadow 0.3s ease; /*esto es cuanto tarda en hacer la sombrita*/
+    margin: 1rem 0;
+    border-radius: 0.5rem; /*esto es lo que le da un borde*/
+    padding: 0rem ;
+    cursor: pointer;
+}
+.intro_img:hover {
+    box-shadow: 0 0 0.5em gray;
 }
 .section__subtitle--intro {
-    display: inline-block;
+    transition: box-shadow 0.3s ease; /*esto es cuanto tarda en hacer la sombrita*/
+    margin: 1rem 0;
+    border-radius: 0.5rem; /*esto es lo que le da un borde*/
+    padding: 0rem ;
+    cursor: pointer;
+}
+.section__subtitle--intro:hover {
+    box-shadow: 0 0 0.5em black;
 }
 .intro {
     position: relative;
