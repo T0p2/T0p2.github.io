@@ -5,35 +5,26 @@ body {
     margin: 0;
     padding: 0;
 }
+
 header {
-    -webkit-text-size-adjust: 100%;
-    font-size: 1.5rem; /* Aumenta el tamaño de la fuente */
-    line-height: 1.6;
-    font-family: 'Open Sans', sans-serif;
-    box-sizing: border-box;
-    display: block;
-    position: relative;
-    color: #ffffff;
-    background-color: #1f203a;
-    background-image: none;
-    padding: 20px 0; /* Aumenta el padding para dar más espacio vertical */
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #333333; /* Gris oscuro para el header */
 }
 
 header ul {
     display: flex;
     list-style: none;
-    padding: 0;
-    margin: 0;
 }
 
 header ul li {
-    margin: 0 20px; /* Aumenta el margen entre los elementos del menú */
+    margin: 0 10px;
 }
 
 header ul li a {
     color: #FFFFFF; /* Blanco para el texto de los enlaces en el header */
     text-decoration: none;
-    font-size: 1.2rem; /* Aumenta el tamaño de la fuente de los enlaces */
 }
 
 .hero {
