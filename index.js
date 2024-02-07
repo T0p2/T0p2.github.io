@@ -14,15 +14,19 @@ navLinks.forEach(link => {
 
 
 
-var check=document.querySelector(".check");
-check.addEventListener("click", idioma);
+//// Función para cambiar el idioma
+function cambiarIdioma() {
+    var checkbox = document.querySelector('.check');
 
+    document.documentElement.lang = checkbox.checked ? 'en' : 'es';
 
-function idioma (){
-    let id = check.checked;
-    if(id ==true){
-        location.href = "/index.html";
-    }else{
-        location.href= "/indexx.html";
-    }
+    var idiomaActual = checkbox.checked ? 'en' : 'es';
+    var elementos = document.querySelectorAll('.' + idiomaActual);
+
+    elementos.forEach(function (elemento) {
+        elemento.classList.toggle('checked', checkbox.checked);
+    });
 }
+
+// Asignar la función al evento change del checkbox
+document.querySelector('.check').addEventListener('change', cambiarIdioma);
