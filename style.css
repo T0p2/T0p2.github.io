@@ -96,10 +96,12 @@ h3 { font-size: var(--fs-h3) }
 
 .section__title {
     margin-bottom: .25em;
+    
 }
 .section__title--intro {
     font-weight: var(--fw-reg);
     white-space: nowrap;
+    font-size: var(--fs-h2);
 }
 
 .section_subtitle {
