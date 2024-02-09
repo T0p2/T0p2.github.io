@@ -93,16 +93,22 @@ h1 { font-size: var(--fs-h1) }
 h2 { font-size: var(--fs-h2) }
 h3 { font-size: var(--fs-h3) }
 
-
 .section__title {
-    margin-bottom: .25em;
-    
+    margin-bottom: .25em;    
 }
 .section__title--intro {
     font-weight: var(--fw-reg);
     white-space: nowrap;
     font-size: var(--fs-h2);
+    display: block;
+    font-family: monospace;
+    white-space: nowrap;
+    border-right:2px solid;
+    width: 18ch;
+    animation:typing 3s steps(22), blink .5s step-end infinite alternate;
+    overflow:hidden;
 }
+
 
 .section_subtitle {
     margin: 0;
