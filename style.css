@@ -93,14 +93,22 @@ h1 { font-size: var(--fs-h1) }
 h2 { font-size: var(--fs-h2) }
 h3 { font-size: var(--fs-h3) }
 
-
 .section__title {
-    margin-bottom: .25em;
+    margin-bottom: .25em;    
 }
 .section__title--intro {
     font-weight: var(--fw-reg);
     white-space: nowrap;
+    font-size: var(--fs-h2);
+    display: block;
+    font-family: monospace;
+    white-space: nowrap;
+    border-right:2px solid;
+    width: 18ch;
+    animation:typing 3s steps(22), blink .5s step-end infinite alternate;
+    overflow:hidden;
 }
+
 
 .section_subtitle {
     margin: 0;
@@ -123,11 +131,23 @@ h3 { font-size: var(--fs-h3) }
     margin-bottom: 2em;
 }
 
-.logo{
-    background: var(--clr-axul) ;
-    font-family: var(--ff-secondary);
-    white-space: nowrap;
 
+.name p{
+  display: block;
+  font-family: monospace;
+  white-space: nowrap;
+  border-right:2px solid;
+  width: 16ch;
+  animation:typing 2s steps(22), blink .5s step-end infinite alternate;
+  overflow:hidden;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 16ch }
+}
+@keyframes blink{
+  50% { border-color: transparent }
 }
 /* header */
 
@@ -137,9 +157,7 @@ header {
     padding: 1em;
 }
 
-.logo {
-    max-width: 100px;
-}
+
 
 .nav {
     position: fixed;
@@ -285,10 +303,24 @@ header {
 
 
 .intro_img {
-    box-shadow: var(--bs);
+    transition: box-shadow 0.3s ease; /*esto es cuanto tarda en hacer la sombrita*/
+    margin: 1rem 0;
+    border-radius: 0.5rem; /*esto es lo que le da un borde*/
+    padding: 0rem ;
+    cursor: pointer;
+}
+.intro_img:hover {
+    box-shadow: 0 0 0.5em gray;
 }
 .section__subtitle--intro {
-    display: inline-block;
+    transition: box-shadow 0.3s ease; /*esto es cuanto tarda en hacer la sombrita*/
+    margin: 1rem 0;
+    border-radius: 0.5rem; /*esto es lo que le da un borde*/
+    padding: 0rem ;
+    cursor: pointer;
+}
+.section__subtitle--intro:hover {
+    box-shadow: 0 0 0.5em black;
 }
 .intro {
     position: relative;
