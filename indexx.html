@@ -15,38 +15,57 @@
 
     <link rel="stylesheet" href="style.css">
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
 
     <title>My Portfolio</title>
 </head>
 
 <body>
-    <header>
-        <div class="logo">
-            <p>&lt;Ignacio Ayerbe&gt; </p>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navegar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#work">Contact</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <button class="nav-toggle" aria-label="toggle navigation">
-            <span class="hamburger"></span>
-        </button>
-        <nav class="nav">
-            <ul class="nav__list">
-                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
-                <li class="nav__item"><a href="#services" class="nav__link">My skills</a></li>
-                <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
-                <li class="nav__item"><a href="#work" class="nav__link">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+    </nav>
    <!--Introduction-->
 
 
-
+<br>
    <span class="en">English</span>
    <input type="checkbox" class="check">
    <span class ="es">Español</span>
 
    
 <section class="intro" id="home">
-    <img src="foto.jpg" alt="foto Nacho" class="intro_img">
+    <img src="imagenes/foto.jpg" alt="foto Nacho" class="intro_img">
     <div class="intro-text">
         <h1 class="section__title section__title--intro">
             Hi, My Name Is <strong>Ignacio Ayerbe</strong>
@@ -83,7 +102,7 @@
         <p class="section_subtitle section__subtitle--about">
             Passionate about constant learning and the search for knowledge in the tools of the future. Currently interested in the areas of Data and DevOps, with the determination to keep me updated and in constant training.
         </p>
-        <img src="foto.jpg" alt="foto Nacho" class="about-me__img">
+        <img src="imagenes/foto.jpg" alt="foto Nacho" class="about-me__img">
     </section>
 
     <a href="Ignacio Ayerbe CV.pdf" download="ignacio-ayerbe CV" class="btn">download Ignacio Ayerbe's CV</a>
@@ -95,22 +114,22 @@
         <div class="portfolio">
             <a href="https://github.com/T0p2" class="social-list__link"
                     target="_blank"> 
-                    <img src="github1.png" alt="" class="portfolio__img">
+                    <img src="imagenes/github1.png" alt="" class="portfolio__img">
             </a>
 
             <a href="https://www.linkedin.com/in/ignacio-ayerbe-651a64229/" class="social-list__link"
                     target="_blank"> 
-                    <img src="LinkedIn.png" alt="" class="portfolio__img">
+                    <img src="imagenes/LinkedIn.png" alt="" class="portfolio__img">
             </a>
 
             <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" class="social-list__link"
             target="_blank"> 
-            <img src="gmail.png" alt="" class="portfolio__img">
+            <img src="imagenes/gmail.png" alt="" class="portfolio__img">
             </a>
 
             <a href="https://wa.link/ws00p6" class="social-list__link"
             target="_blank"> 
-            <img src="whatsapp.png" alt="" class="portfolio__img">
+            <img src="imagenes/whatsapp.png" alt="" class="portfolio__img">
             </a>
 
         </div>

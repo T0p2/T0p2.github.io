@@ -326,7 +326,7 @@ header {
 
 /*habilidades*/
 .my-services {
-    background-image: url('pexels-tima-miroshnichenko-5380618.jpg');
+    background-image: url('imagenes/pexels-tima-miroshnichenko-5380618.jpg');
     /*background-color: var(--clr-dark);*/
     color: var(--clr-light);
     background-size: cover;
