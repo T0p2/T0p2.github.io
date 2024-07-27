@@ -1,4 +1,5 @@
 <<<<<<< HEAD:.history/style_20240805101947.css
+<<<<<<< HEAD:.history/style_20240805101947.css
 *,
 *::before,
 *::after {
@@ -1101,3 +1102,135 @@ text-decoration: none;}
     /*margin-top: 50px;*/
 }
 >>>>>>> c29fe79 (ANIMACIONES):style.css
+=======
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #1e1e1e;
+}
+
+header .logo {
+    font-size: 24px;
+    color: #00ffcc;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+}
+
+header ul li {
+    margin: 0 10px;
+}
+
+header ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-image: url(imagenes/Azul\ Marino\,\ Línea\,\ Cielo\ Imágenes\ de\ fondo\ gratuitas\,\ Tecnología\ Antecedentes\ Foto\ de\ fondo\ PNG\ y\ vectores.jpeg);
+}
+
+.hero h1 {
+    font-size: 48px;
+}
+
+.hero button {
+    background-color: #00ffcc;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.skills {
+    padding: 50px 20px;
+}
+
+.skills h2 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.skills-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 20px; /* Espacio entre los contenedores */
+}
+
+.skills-text, .skills-wordcloud {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #121212; /* Fondo oscuro para el contenedor */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+.skills-text p {
+    margin: 10px 0;
+    padding: 10px;
+    text-align: left;
+    font-size: 1.5vw;
+}
+
+#wordCloud {
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width: 768px) {
+    .skills-container {
+        flex-direction: column;
+    }
+
+    #wordCloud {
+        width: 100%;
+        height: auto;
+    }
+}
+
+.projects {
+    padding: 50px 20px;
+    background-color: #1e1e1e;
+}
+
+.projects h2 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.contact {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.contact h2 {
+    font-size: 36px;
+}
+
+.contact button {
+    background-color: #00ffcc;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+>>>>>>> 5e16529 (actualizacion de la pagina):style.css
