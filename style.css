@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #121212;
-    color: #ffffff;
+    background-color: #252525;
+    color: #FFFFFF;
     margin: 0;
     padding: 0;
 }
@@ -10,12 +10,7 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    background-color: #1e1e1e;
-}
-
-header .logo {
-    font-size: 24px;
-    color: #00ffcc;
+    background-color: #252525;
 }
 
 header ul {
@@ -35,7 +30,7 @@ header ul li a {
 .hero {
     text-align: center;
     padding: 100px 20px;
-    background-image: url(imagenes/Azul\ Marino\,\ Línea\,\ Cielo\ Imágenes\ de\ fondo\ gratuitas\,\ Tecnología\ Antecedentes\ Foto\ de\ fondo\ PNG\ y\ vectores.jpeg);
+    background-color: #252525; /* Color actualizado */
 }
 
 .hero h1 {
@@ -43,15 +38,23 @@ header ul li a {
 }
 
 .hero button {
-    background-color: #00ffcc;
+    background-color: #F7F0F0;
     color: #000;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
     font-size: 16px;
+    transition: background-color 0.3s, transform 0.3s;
 }
+
+.hero button:hover {
+    background-color: #e0e0e0;
+    transform: scale(1.05);
+}
+
 .skills {
     padding: 50px 20px;
+    background-color: #343A40; /* Color actualizado */
 }
 
 .skills h2 {
@@ -121,10 +124,16 @@ header ul li a {
 }
 
 .contact button {
-    background-color: #00ffcc;
+    background-color: #F7F0F0;
     color: #000;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
     font-size: 16px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.contact button:hover {
+    background-color: #e0e0e0;
+    transform: scale(1.05);
 }

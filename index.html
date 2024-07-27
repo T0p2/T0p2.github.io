@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portafolio</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="node_modules/wordcloud/src/wordcloud2.js"></script>
 </head>
 
@@ -21,12 +22,12 @@
         </nav>
     </header>
 
-    <section class="hero">
+    <section class="hero" data-aos="fade-up">
         <h1>Hola!, <br>Soy Ignacio Ayerbe,<br>Ingeniero en Sistemas</h1>
         <button>Let's get in touch!</button>
     </section>
 
-    <section class="skills">
+    <section class="skills" data-aos="fade-up">
         <div class="skills-container">
             <div class="skills-text">
                 <h2>Habilidades y herramientas</h2>
@@ -39,22 +40,23 @@
             </div>
         </div>
     </section>
-    
-    
 
-
-    <section class="projects" id="projects">
+    <section class="projects" id="projects" data-aos="fade-up">
         <h2>Projects</h2>
         <div class="project-list">
             <!-- Aquí van tus proyectos -->
         </div>
     </section>
 
-    <section class="contact" id="contact">
+    <section class="contact" id="contact" data-aos="fade-up">
         <h2>Let's talk about your project</h2>
         <button>Contact us</button>
     </section>
 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <script type="module" src="code.js"></script>
 </body>
 
