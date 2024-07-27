@@ -1,36 +1,24 @@
-<<<<<<< HEAD:index.js
-=======
-const navToggle = document.querySelector('.nav-toggle');
-const navLinks = document.querySelectorAll('.nav__link')
+document.addEventListener('DOMContentLoaded', function() {
+    var words = [
+        ['JavaScript', 12],
+        ['HTML', 8],
+        ['CSS', 8],
+        ['Node.js', 7],
+        ['Python', 5],
+        ['Django', 4],
+        ['Flask', 4],
+        ['Java', 3]
+    ];
 
-navToggle.addEventListener('click', () => {
-document.body.classList.toggle('nav-open');
+    WordCloud(document.getElementById('wordCloud'), {
+        list: words,
+        gridSize: 30,
+        weightFactor: 5,
+        fontFamily: 'Times, serif',
+        color: 'white',
+        backgroundColor: 'dark',
+        rotateRatio: 0,
+        rotationSteps: 0,
+        shape: 'circle'
+    });
 });
-
-navLinks.forEach(link => {
-    link.addEventListener('click', () => {
-        document.body.classList.remove('nav-open');
-    })
-})
-
-
-
->>>>>>> c29fe79d0fef5712aa2ac675ab8bde3cbd3f5ff1:code.js
-
-var check=document.querySelector(".check");
-check.addEventListener("click", idioma);
-
-
-function idioma (){
-    let id = check.checked;
-<<<<<<< HEAD:index.js
-    if(id == true){
-        location.href = "/index.html";
-=======
-    if(id ==true){
-        location.href = "index.html";
->>>>>>> c29fe79d0fef5712aa2ac675ab8bde3cbd3f5ff1:code.js
-    }else{
-        location.href= "indexx.html";
-    }
-}
