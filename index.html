@@ -1,6 +1,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="es">
 
@@ -377,3 +378,99 @@
 
 </html>
 >>>>>>> a99f6dd (efectos, colores)
+=======
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="node_modules/wordcloud/src/wordcloud2.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero" data-aos="fade-up">
+        <h1>Hola!, <br>Soy Ignacio Ayerbe,<br>Ingeniero en Sistemas</h1>
+    </section>
+
+    <section class="skills" data-aos="fade-up">
+        <div class="skills-container">
+            <div class="skills-text">
+                <h2>Habilidades y herramientas</h2>
+                <p><strong>Lenguajes y Frameworks:</strong> Dominio de JavaScript, Python y Java, con amplia experiencia
+                    en frameworks como React, Node.js y Django.</p>
+                <p><strong>Herramientas y Tecnologías:</strong> Habilidad en el uso de herramientas como Git, Docker y
+                    Jenkins para control de versiones, contenedorización e integración continua.</p>
+                <p><strong>Proyectos Destacados:</strong> Desarrollé una aplicación web dinámica para la gestión de
+                    inventarios utilizando React y Node.js, e implementé un modelo de aprendizaje automático con Python
+                    y TensorFlow para predecir tendencias de ventas.</p>
+            </div>
+            <div class="skills-wordcloud">
+                <div id="wordCloud" style="width: 500px; height: 500px;"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects" data-aos="fade-up">
+        <h2>Projects</h2>
+        <div class="project-card">
+            <figure>
+                <img src="/imagenes/imagen proyecto front end.png">
+            </figure>
+            <div class="info-card">
+                <h3>Gestion de Cabañas</h3>
+                <p>Este proyecto Front-End está diseñado para la gestión de alquiler de cabañas, utilizando HTML, CSS y JavaScript. La aplicación permite a los usuarios buscar y reservar cabañas disponibles, así como gestionar sus reservas de manera intuitiva y eficiente.</p>
+                <a href="https://github.com/T0p2/Proyecto-de-Codo-a-Codo">Leer mas</a>
+            </div>
+        </div>
+        <div class="project-card">
+            <figure>
+                <img src="/imagenes/asistente virtual.png">
+            </figure>
+            <div class="info-card">
+                <h3>Asistente virtual de voz</h3>
+                <p>Este proyecto es un asistente virtual en Python que utiliza APIs de OpenAI, YouTube y Spotify. Permite reproducir música y videos mediante comandos de voz, utilizando la librería whisper para el reconocimiento de voz. Sus funcionalidades incluyen la búsqueda y reproducción de contenido en YouTube y Spotify a través de comandos de voz.
+                </p>
+                <a href="https://github.com/T0p2/Asistente-Virtual-en-Python">Leer mas</a>
+            </div>
+        </div>
+        <div class="project-card">
+            <figure>
+                <img src="">
+            </figure>
+            <div class="info-card">
+                <h3>proyecto 1</h3>
+                <p>bla bla bla</p>
+                <a href="'#'">Leer mas</a>
+            </div>
+        </div>
+        
+    </section>
+
+    <section class="contact" id="contact" data-aos="fade-up">
+        <h2>Let's talk about your project</h2>
+        <button>Contact us</button>
+    </section>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script type="module" src="code.js"></script>
+</body>
+
+</html>
+>>>>>>> cdb48fe (mejora de estilos, adicion de proyectos)
