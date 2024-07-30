@@ -1,5 +1,6 @@
 body {
     font-family: Arial, sans-serif;
+<<<<<<< HEAD
     background-color: #FFFFFF; /* Blanco para el fondo principal */
     color: #000000; /* Negro para el texto principal */
     margin: 0;
@@ -10,18 +11,47 @@ header {
     font-size: 1.5rem; /* Aumenta el tamaño de la fuente */
     line-height: 1.6;
     font-family: 'Open Sans', sans-serif;
+=======
+<<<<<<<< HEAD:.history/static/css/style_20240805101809.css
+    background-color: #FFFFFF; /* Blanco para el fondo principal */
+    color: #000000; /* Negro para el texto principal */
+========
+    background-color: #252525;
+    color: #FFFFFF;
+>>>>>>>> f3bf724 (adicion de backend con python y flask.):static/css/style.css
+    margin: 0;
+    padding: 0;
+}
+
+header {
+<<<<<<<< HEAD:.history/static/css/style_20240805101809.css
+    -webkit-text-size-adjust: 100%;
+    font-size: 1rem;
+    line-height: 1.6;
+    font-family: 'Open Sans',sans-serif;
+>>>>>>> f3bf724 (adicion de backend con python y flask.)
     box-sizing: border-box;
     display: block;
     position: relative;
     color: #ffffff;
     background-color: #1f203a;
     background-image: none;
+<<<<<<< HEAD
     padding: 20px 0; /* Aumenta el padding para dar más espacio vertical */
+=======
+========
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #5f5a5a;
+>>>>>>>> f3bf724 (adicion de backend con python y flask.):static/css/style.css
+>>>>>>> f3bf724 (adicion de backend con python y flask.)
 }
 
 header ul {
     display: flex;
     list-style: none;
+<<<<<<< HEAD
     padding: 0;
     margin: 0;
 }
@@ -34,19 +64,55 @@ header ul li a {
     color: #FFFFFF; /* Blanco para el texto de los enlaces en el header */
     text-decoration: none;
     font-size: 1.2rem; /* Aumenta el tamaño de la fuente de los enlaces */
+=======
+}
+
+header ul li {
+    margin: 0 10px;
+}
+
+header ul li a {
+<<<<<<<< HEAD:.history/static/css/style_20240805101809.css
+    color: #FFFFFF; /* Blanco para el texto de los enlaces en el header */
+========
+    color: #ffffff;
+>>>>>>>> f3bf724 (adicion de backend con python y flask.):static/css/style.css
+    text-decoration: none;
+>>>>>>> f3bf724 (adicion de backend con python y flask.)
 }
 
 .hero {
     text-align: center;
     padding: 100px 20px;
+<<<<<<< HEAD
     background-color: #FFFFFF; /* Blanco para el fondo de hero */
     margin-top: 300px;
     margin-bottom: 300px;
+=======
+<<<<<<<< HEAD:.history/static/css/style_20240805101809.css
+    background-color: #FFFFFF; /* Blanco para el fondo de hero */
+    margin-top: 300px;
+    margin-bottom: 300px;
+========
+    background-color: #252525;
+    margin-top: 300px;
+    margin-bottom: 300px;
+    /* Color actualizado */
+>>>>>>>> f3bf724 (adicion de backend con python y flask.):static/css/style.css
+>>>>>>> f3bf724 (adicion de backend con python y flask.)
 }
 
 .hero h1 {
     font-size: 48px;
+<<<<<<< HEAD
     color: #000000; /* Negro para el texto del hero */
+=======
+<<<<<<<< HEAD:.history/static/css/style_20240805101809.css
+    color: #000000; /* Negro para el texto del hero */
+========
+    color: #fff;
+>>>>>>>> f3bf724 (adicion de backend con python y flask.):static/css/style.css
+>>>>>>> f3bf724 (adicion de backend con python y flask.)
     font-family: 'Arial', sans-serif;
     text-align: center;
     margin: 0;
@@ -59,6 +125,10 @@ header ul li a {
 }
 
 .hero h1:hover {
+<<<<<<< HEAD
+=======
+<<<<<<<< HEAD:.history/static/css/style_20240805101809.css
+>>>>>>> f3bf724 (adicion de backend con python y flask.)
     color: #999999; /* Gris claro al pasar el ratón */
     text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8); /* Sombra del texto más pronunciada al pasar el ratón */
 }
@@ -68,12 +138,34 @@ header ul li a {
     background-color: #F5F5F5; /* Gris claro para el fondo de skills */
     padding-top: 300px;
     padding-bottom: 300px;
+<<<<<<< HEAD
+=======
+========
+    color: rgb(134, 134, 134); /* Cambia el color al pasar el ratón */
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8); /* Cambia la sombra del texto al pasar el ratón */
+}
+
+
+.skills {
+    padding: 50px 20px;
+    background-color: #252525;
+    margin: 300px;
+    /* Color actualizado */
+>>>>>>>> f3bf724 (adicion de backend con python y flask.):static/css/style.css
+>>>>>>> f3bf724 (adicion de backend con python y flask.)
 }
 
 .skills h2 {
     font-size: 32px;
     text-align: center;
+<<<<<<< HEAD
     color: #000000; /* Negro para el texto del título de skills */
+=======
+<<<<<<<< HEAD:.history/static/css/style_20240805101809.css
+    color: #000000; /* Negro para el texto del título de skills */
+========
+>>>>>>>> f3bf724 (adicion de backend con python y flask.):static/css/style.css
+>>>>>>> f3bf724 (adicion de backend con python y flask.)
 }
 
 .skills-container {
@@ -82,6 +174,13 @@ header ul li a {
     justify-content: center;
     margin-top: 20px;
     gap: 20px;
+<<<<<<< HEAD
+=======
+<<<<<<<< HEAD:.history/static/css/style_20240805101809.css
+========
+    /* Espacio entre los contenedores */
+>>>>>>>> f3bf724 (adicion de backend con python y flask.):static/css/style.css
+>>>>>>> f3bf724 (adicion de backend con python y flask.)
 }
 
 .skills-text,
@@ -92,8 +191,20 @@ header ul li a {
     justify-content: center;
     align-items: center;
     padding: 20px;
+<<<<<<< HEAD
     background-color: #000000; /* Negro para el fondo de los contenedores de skills */
     border-radius: 10px;
+=======
+<<<<<<<< HEAD:.history/static/css/style_20240805101809.css
+    background-color: #000000; /* Negro para el fondo de los contenedores de skills */
+    border-radius: 10px;
+========
+    background-color: #121212;
+    /* Fondo oscuro para el contenedor */
+    border-radius: 10px;
+    /* Bordes redondeados */
+>>>>>>>> f3bf724 (adicion de backend con python y flask.):static/css/style.css
+>>>>>>> f3bf724 (adicion de backend con python y flask.)
 }
 
 .skills-text p {
@@ -101,7 +212,14 @@ header ul li a {
     padding: 10px;
     text-align: left;
     font-size: 1.4vw;
+<<<<<<< HEAD
     color: #FFFFFF; /* Blanco para el texto dentro de skills-text */
+=======
+<<<<<<<< HEAD:.history/static/css/style_20240805101809.css
+    color: #FFFFFF; /* Blanco para el texto dentro de skills-text */
+========
+>>>>>>>> f3bf724 (adicion de backend con python y flask.):static/css/style.css
+>>>>>>> f3bf724 (adicion de backend con python y flask.)
 }
 
 #wordCloud {
@@ -123,30 +241,76 @@ header ul li a {
 .projects {
     margin-bottom: 200px;
     padding: 50px 20px;
+<<<<<<< HEAD
+=======
+<<<<<<<< HEAD:.history/static/css/style_20240805101809.css
+>>>>>>> f3bf724 (adicion de backend con python y flask.)
     background-color: #F5F5F5; /* Gris claro para el fondo de projects */
     width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
+<<<<<<< HEAD
+=======
+========
+    background-color: #1e1e1e;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* 3 columnas */
+    gap: 20px;
+    /* Espacio entre tarjetas */
+>>>>>>>> f3bf724 (adicion de backend con python y flask.):static/css/style.css
+>>>>>>> f3bf724 (adicion de backend con python y flask.)
     max-width: 1100px;
     text-align: center;
 }
 
 .projects h2 {
     grid-column: span 3;
+<<<<<<< HEAD
+=======
+<<<<<<<< HEAD:.history/static/css/style_20240805101809.css
+========
+    /* El título ocupa las 3 columnas */
+>>>>>>>> f3bf724 (adicion de backend con python y flask.):static/css/style.css
+>>>>>>> f3bf724 (adicion de backend con python y flask.)
     font-size: 36px;
     text-align: center;
     margin-bottom: 20px;
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<<< HEAD:.history/static/css/style_20240805101809.css
+>>>>>>> f3bf724 (adicion de backend con python y flask.)
 @media (min-width: 1300px) {
     .projects {
         grid-template-columns: repeat(4, 1fr);
         max-width: none;
+<<<<<<< HEAD
+=======
+========
+/* Para pantallas grandes */
+@media (min-width: 1300px) {
+    .projects {
+        grid-template-columns: repeat(4, 1fr);
+        /* 4 columnas */
+        max-width: none;
+        /* Ocupar todo el ancho */
+>>>>>>>> f3bf724 (adicion de backend con python y flask.):static/css/style.css
+>>>>>>> f3bf724 (adicion de backend con python y flask.)
     }
 
     .projects h2 {
         grid-column: span 4;
+<<<<<<< HEAD
+=======
+<<<<<<<< HEAD:.history/static/css/style_20240805101809.css
+========
+        /* El título ocupa las 4 columnas */
+>>>>>>>> f3bf724 (adicion de backend con python y flask.):static/css/style.css
+>>>>>>> f3bf724 (adicion de backend con python y flask.)
     }
 }
 
@@ -154,22 +318,60 @@ header ul li a {
     .project-card img {
         width: 100%;
         height: 300px;
+<<<<<<< HEAD
+=======
+<<<<<<<< HEAD:.history/static/css/style_20240805101809.css
+>>>>>>> f3bf724 (adicion de backend con python y flask.)
     }
 }
 
 @media (max-width: 1000px) {
     .projects {
         grid-template-columns: 1fr;
+<<<<<<< HEAD
+=======
+========
+        /* Ajusta la altura según lo necesites */
+    }
+}
+
+/* Para pantallas pequeñas */
+@media (max-width: 1000px) {
+    .projects {
+        grid-template-columns: 1fr;
+        /* 1 columna */
+>>>>>>>> f3bf724 (adicion de backend con python y flask.):static/css/style.css
+>>>>>>> f3bf724 (adicion de backend con python y flask.)
     }
 
     .projects h2 {
         grid-column: span 1;
+<<<<<<< HEAD
+=======
+<<<<<<<< HEAD:.history/static/css/style_20240805101809.css
+========
+        /* El título ocupa 1 columna */
+>>>>>>>> f3bf724 (adicion de backend con python y flask.):static/css/style.css
+>>>>>>> f3bf724 (adicion de backend con python y flask.)
     }
 
     .project-card {
         margin: 10px auto;
+<<<<<<< HEAD
         max-width: 90%;
         width: 100%;
+=======
+<<<<<<<< HEAD:.history/static/css/style_20240805101809.css
+        max-width: 90%;
+        width: 100%;
+========
+        /* Centrar y reducir el margen */
+        max-width: 90%;
+        /* Reducir el ancho máximo */
+        width: 100%;
+        /* Asegurar que ocupe todo el ancho disponible */
+>>>>>>>> f3bf724 (adicion de backend con python y flask.):static/css/style.css
+>>>>>>> f3bf724 (adicion de backend con python y flask.)
     }
 
     .project-card img {
@@ -185,17 +387,44 @@ header ul li a {
 
     .project-card .info-card p {
         font-size: 14px;
+<<<<<<< HEAD
+=======
+<<<<<<<< HEAD:.history/static/css/style_20240805101809.css
+========
+        /* Reducir el tamaño de fuente */
+>>>>>>>> f3bf724 (adicion de backend con python y flask.):static/css/style.css
+>>>>>>> f3bf724 (adicion de backend con python y flask.)
     }
 
     .project-card .info-card h3 {
         font-size: 18px;
+<<<<<<< HEAD
+=======
+<<<<<<<< HEAD:.history/static/css/style_20240805101809.css
+========
+        /* Reducir el tamaño de fuente */
+>>>>>>>> f3bf724 (adicion de backend con python y flask.):static/css/style.css
+>>>>>>> f3bf724 (adicion de backend con python y flask.)
     }
 
     .project-card .info-card a {
         font-size: 14px;
+<<<<<<< HEAD
         padding: 8px;
     }
 
+=======
+<<<<<<<< HEAD:.history/static/css/style_20240805101809.css
+        padding: 8px;
+    }
+
+========
+        /* Reducir el tamaño de fuente */
+        padding: 8px;
+        /* Reducir el padding */
+    }
+>>>>>>>> f3bf724 (adicion de backend con python y flask.):static/css/style.css
+>>>>>>> f3bf724 (adicion de backend con python y flask.)
     .contact {
         flex-direction: column;
         align-items: center;
@@ -208,10 +437,24 @@ header ul li a {
     }
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<<< HEAD:.history/static/css/style_20240805101809.css
+>>>>>>> f3bf724 (adicion de backend con python y flask.)
 .project-card {
     border-radius: 6px;
     overflow: hidden;
     background-color: #F5F5F5; /* Gris claro para el fondo de project-card */
+<<<<<<< HEAD
+=======
+========
+
+.project-card {
+    border-radius: 6px;
+    overflow: hidden;
+    background-color: gray;
+>>>>>>>> f3bf724 (adicion de backend con python y flask.):static/css/style.css
+>>>>>>> f3bf724 (adicion de backend con python y flask.)
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
     cursor: default;
     transition: all 400ms ease;
@@ -237,13 +480,29 @@ header ul li a {
 
 .project-card .info-card p {
     line-height: 1.5;
+<<<<<<< HEAD
     color: #333333; /* Gris oscuro para el texto de la info-card */
+=======
+<<<<<<<< HEAD:.history/static/css/style_20240805101809.css
+    color: #333333; /* Gris oscuro para el texto de la info-card */
+========
+    color: #313131;
+>>>>>>>> f3bf724 (adicion de backend con python y flask.):static/css/style.css
+>>>>>>> f3bf724 (adicion de backend con python y flask.)
 }
 
 .project-card .info-card h3 {
     font-weight: 400;
     margin-bottom: 15px;
+<<<<<<< HEAD
     color: #000000; /* Negro para el texto de la info-card */
+=======
+<<<<<<<< HEAD:.history/static/css/style_20240805101809.css
+    color: #000000; /* Negro para el texto de la info-card */
+========
+    color: #000000;
+>>>>>>>> f3bf724 (adicion de backend con python y flask.):static/css/style.css
+>>>>>>> f3bf724 (adicion de backend con python y flask.)
 }
 
 .project-card .info-card a {
@@ -251,14 +510,30 @@ header ul li a {
     display: inline-block;
     padding: 10px;
     margin-top: 10px;
+<<<<<<< HEAD
     border: 1px solid #000000; /* Negro para el borde del enlace */
     background-color: #FFFFFF; /* Blanco para el fondo del enlace */
     color: #000000; /* Negro para el texto del enlace */
+=======
+<<<<<<<< HEAD:.history/static/css/style_20240805101809.css
+    border: 1px solid #000000; /* Negro para el borde del enlace */
+    background-color: #FFFFFF; /* Blanco para el fondo del enlace */
+    color: #000000; /* Negro para el texto del enlace */
+========
+    border: 1px solid #000000c9;
+    background-color: #ffffffc9;
+    color: #000;
+>>>>>>>> f3bf724 (adicion de backend con python y flask.):static/css/style.css
+>>>>>>> f3bf724 (adicion de backend con python y flask.)
     border-radius: 4px;
     transition: all 400ms ease;
 }
 
 .project-card .info-card a:hover {
+<<<<<<< HEAD
+=======
+<<<<<<<< HEAD:.history/static/css/style_20240805101809.css
+>>>>>>> f3bf724 (adicion de backend con python y flask.)
     background-color: #A6C8FF; /* Azul claro al pasar el ratón sobre el enlace */
     color: #000000;
 }
@@ -269,10 +544,28 @@ header ul li a {
     padding: 20px;
     flex-wrap: wrap;
     align-items: flex-start;
+<<<<<<< HEAD
+=======
+========
+    background-color: #525252c9;
+    color: #000;
+}
+.contact {
+    display: flex;
+    justify-content: space-between; 
+    padding: 20px; 
+    flex-wrap: wrap; 
+    align-items: flex-start; 
+>>>>>>>> f3bf724 (adicion de backend con python y flask.):static/css/style.css
+>>>>>>> f3bf724 (adicion de backend con python y flask.)
     margin-bottom: 100px;
 }
 
 .info-basica, .form {
+<<<<<<< HEAD
+=======
+<<<<<<<< HEAD:.history/static/css/style_20240805101809.css
+>>>>>>> f3bf724 (adicion de backend con python y flask.)
     flex: 1;
     max-width: 45%;
     border: 5px solid #333333; /* Gris oscuro para el borde de info-basica y form */
@@ -282,36 +575,90 @@ header ul li a {
 .info-basica {
     border-radius: 8px;
     padding: 20px;
+<<<<<<< HEAD
+=======
+========
+    flex: 1; 
+    max-width: 45%; 
+}
+
+.info-basica {
+    border-radius: 8px; 
+    padding: 20px; 
+>>>>>>>> f3bf724 (adicion de backend con python y flask.):static/css/style.css
+>>>>>>> f3bf724 (adicion de backend con python y flask.)
     text-align: left;
     margin-top: 50px;
 }
 
 .contact h2 {
     font-size: 30px;
+<<<<<<< HEAD
     text-align: center;
     width: 100%;
     margin-bottom: 100px;
+=======
+<<<<<<<< HEAD:.history/static/css/style_20240805101809.css
+    text-align: center;
+    width: 100%;
+    margin-bottom: 100px;
+========
+    text-align: center; /* Centra el texto dentro del contenedor de contacto */
+    width: 100%; /* Asegura que el título ocupe todo el ancho del contenedor */
+    margin-bottom: 100px; /* Espacio debajo del encabezado */
+>>>>>>>> f3bf724 (adicion de backend con python y flask.):static/css/style.css
+>>>>>>> f3bf724 (adicion de backend con python y flask.)
 }
 
 .contact h3 {
     font-size: 19px;
+<<<<<<< HEAD
     margin-bottom: 20px;
+=======
+<<<<<<<< HEAD:.history/static/css/style_20240805101809.css
+    margin-bottom: 20px;
+========
+    margin-bottom: 20px; /* Espacio debajo del encabezado del formulario */
+>>>>>>>> f3bf724 (adicion de backend con python y flask.):static/css/style.css
+>>>>>>> f3bf724 (adicion de backend con python y flask.)
 }
 
 .info-basica {
     display: grid;
+<<<<<<< HEAD
     row-gap: 0.5vw;
+=======
+<<<<<<<< HEAD:.history/static/css/style_20240805101809.css
+    row-gap: 0.5vw;
+========
+    row-gap: 0.5vw; /* Espacio entre filas en la información básica */
+>>>>>>>> f3bf724 (adicion de backend con python y flask.):static/css/style.css
+>>>>>>> f3bf724 (adicion de backend con python y flask.)
 }
 
 .form {
     display: flex;
     flex-direction: column;
     gap: 15px;
+<<<<<<< HEAD
+=======
+<<<<<<<< HEAD:.history/static/css/style_20240805101809.css
+>>>>>>> f3bf724 (adicion de backend con python y flask.)
     box-shadow: 0 0 20px rgba(27, 27, 27, 0.6);
     padding: 20px;
     max-width: 600px;
     background-color: #F5F5F5; /* Gris claro para el fondo del formulario */
     border-radius: 8px;
+<<<<<<< HEAD
+=======
+========
+    box-shadow: 0 0 20px rgba(27, 27, 27, 0.6); /* Sombra del formulario */
+    padding: 20px;
+    max-width: 600px;
+    background-color: #222; /* Fondo oscuro para el formulario */
+    border-radius: 8px; /* Bordes redondeados */
+>>>>>>>> f3bf724 (adicion de backend con python y flask.):static/css/style.css
+>>>>>>> f3bf724 (adicion de backend con python y flask.)
 }
 
 .row {
@@ -321,6 +668,10 @@ header ul li a {
 
 .column {
     flex: 1;
+<<<<<<< HEAD
+=======
+<<<<<<<< HEAD:.history/static/css/style_20240805101809.css
+>>>>>>> f3bf724 (adicion de backend con python y flask.)
     max-width: 48%;
 }
 
@@ -330,10 +681,28 @@ header ul li a {
 
 .full-width {
     width: 100%;
+<<<<<<< HEAD
+=======
+========
+    max-width: 48%; /* Máximo ancho de cada columna */
+}
+
+.input-box {
+    margin-bottom: 15px; /* Espacio entre los campos del formulario */
+}
+
+.full-width {
+    width: 100%; /* Asegura que los inputs ocupen el 100% del ancho disponible */
+>>>>>>>> f3bf724 (adicion de backend con python y flask.):static/css/style.css
+>>>>>>> f3bf724 (adicion de backend con python y flask.)
 }
 
 label {
     display: block;
+<<<<<<< HEAD
+=======
+<<<<<<<< HEAD:.history/static/css/style_20240805101809.css
+>>>>>>> f3bf724 (adicion de backend con python y flask.)
     color: #000000; /* Negro para el texto de los labels */
     margin-bottom: 5px;
 }
@@ -358,10 +727,43 @@ button.submit-button {
     background-color: #FFFFFF; /* Blanco para el fondo del botón */
     width: 50%;
     color: #333333; /* Gris oscuro para el texto del botón */
+<<<<<<< HEAD
+=======
+========
+    color: #fff; /* Texto blanco para el label */
+    margin-bottom: 5px;
+}
+
+input, textarea{
+    width: 100%; /* Asegura que el input ocupe el ancho disponible */
+    padding: 6px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: transparent;
+    border-bottom: 2px solid rgb(255, 255, 255); /* Borde inferior blanco */
+    color: #fff; /* Texto blanco en los campos de entrada */
+    transition: width 0.6s ease-in-out; /* Transición suave para el ancho */
+}
+
+input[type=text]:focus {
+    width: 100%; /* Asegura que el input se expanda al 100% en el foco */
+}
+
+button.submit-button {
+    background-color: rgb(255, 255, 255); /* Color de fondo del botón */
+    width: 50%; /* Ancho del botón */
+    color: #333; /* Color del texto del botón */
+>>>>>>>> f3bf724 (adicion de backend con python y flask.):static/css/style.css
+>>>>>>> f3bf724 (adicion de backend con python y flask.)
     border: none;
     padding: 10px;
     cursor: pointer;
     border-radius: 4px;
+<<<<<<< HEAD
+=======
+<<<<<<<< HEAD:.history/static/css/style_20240805101809.css
+>>>>>>> f3bf724 (adicion de backend con python y flask.)
     transition: background-color 0.3s ease, transform 0.3s ease;
     display: block;
     margin: 10px auto;
@@ -375,4 +777,22 @@ button.submit-button:focus {
     outline: none;
     background-color: #333333; /* Gris oscuro al enfocar el botón */
     transform: scale(1.05);
+<<<<<<< HEAD
+=======
+========
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Transiciones suaves para color de fondo y transformación */
+    display: block; /* Asegura que el botón se comporte como un bloque para centrarlo */
+    margin: 10px auto; /* Margen automático para centrar el botón */
+}
+
+button.submit-button:hover {
+    background-color: rgb(155, 152, 152); /* Color de fondo al pasar el ratón sobre el botón */
+}
+
+button.submit-button:focus {
+    outline: none; /* Elimina el borde de enfoque predeterminado */
+    background-color: rgb(61, 60, 60); /* Color de fondo al enfocar el botón */
+    transform: scale(1.05); /* Efecto de escala al enfocar el botón */
+>>>>>>>> f3bf724 (adicion de backend con python y flask.):static/css/style.css
+>>>>>>> f3bf724 (adicion de backend con python y flask.)
 }
