@@ -36,6 +36,9 @@ document.getElementById('contactForm').addEventListener('submit', function(event
         .then(result => {
             alert('Formulario enviado correctamente');
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 6de59ea (cambios en el formulario, falta mucho de estructura y estilos)
             const name = document.getElementById('name'); 
             const lastname = document.getElementById('lastname'); 
             const email = document.getElementById('email'); 
@@ -51,8 +54,11 @@ document.getElementById('contactForm').addEventListener('submit', function(event
                 window.location.href = window.location.href.split('#')[0] + '#header';
             }, 750);
 
+<<<<<<< HEAD
 =======
 >>>>>>> f3bf724 (adicion de backend con python y flask.)
+=======
+>>>>>>> 6de59ea (cambios en el formulario, falta mucho de estructura y estilos)
         })
         .catch(error => {
             alert('Error al enviar el formulario: ' + error.message);
