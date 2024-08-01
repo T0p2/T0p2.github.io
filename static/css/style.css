@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #252525;
-    color: #FFFFFF;
+    background-color: #FFFFFF; /* Blanco para el fondo principal */
+    color: #000000; /* Negro para el texto principal */
     margin: 0;
     padding: 0;
 }
@@ -10,7 +10,7 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    background-color: #5f5a5a;
+    background-color: #333333; /* Gris oscuro para el header */
 }
 
 header ul {
@@ -23,22 +23,21 @@ header ul li {
 }
 
 header ul li a {
-    color: #ffffff;
+    color: #FFFFFF; /* Blanco para el texto de los enlaces en el header */
     text-decoration: none;
 }
 
 .hero {
     text-align: center;
     padding: 100px 20px;
-    background-color: #252525;
+    background-color: #FFFFFF; /* Blanco para el fondo de hero */
     margin-top: 300px;
     margin-bottom: 300px;
-    /* Color actualizado */
 }
 
 .hero h1 {
     font-size: 48px;
-    color: #fff;
+    color: #000000; /* Negro para el texto del hero */
     font-family: 'Arial', sans-serif;
     text-align: center;
     margin: 0;
@@ -51,21 +50,21 @@ header ul li a {
 }
 
 .hero h1:hover {
-    color: rgb(134, 134, 134); /* Cambia el color al pasar el ratón */
-    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8); /* Cambia la sombra del texto al pasar el ratón */
+    color: #999999; /* Gris claro al pasar el ratón */
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8); /* Sombra del texto más pronunciada al pasar el ratón */
 }
-
 
 .skills {
     padding: 50px 20px;
-    background-color: #252525;
-    margin: 300px;
-    /* Color actualizado */
+    background-color: #F5F5F5; /* Gris claro para el fondo de skills */
+    padding-top: 300px;
+    padding-bottom: 300px;
 }
 
 .skills h2 {
     font-size: 32px;
     text-align: center;
+    color: #000000; /* Negro para el texto del título de skills */
 }
 
 .skills-container {
@@ -74,7 +73,6 @@ header ul li a {
     justify-content: center;
     margin-top: 20px;
     gap: 20px;
-    /* Espacio entre los contenedores */
 }
 
 .skills-text,
@@ -85,10 +83,8 @@ header ul li a {
     justify-content: center;
     align-items: center;
     padding: 20px;
-    background-color: #121212;
-    /* Fondo oscuro para el contenedor */
+    background-color: #000000; /* Negro para el fondo de los contenedores de skills */
     border-radius: 10px;
-    /* Bordes redondeados */
 }
 
 .skills-text p {
@@ -96,6 +92,7 @@ header ul li a {
     padding: 10px;
     text-align: left;
     font-size: 1.4vw;
+    color: #FFFFFF; /* Blanco para el texto dentro de skills-text */
 }
 
 #wordCloud {
@@ -117,37 +114,30 @@ header ul li a {
 .projects {
     margin-bottom: 200px;
     padding: 50px 20px;
-    background-color: #1e1e1e;
+    background-color: #F5F5F5; /* Gris claro para el fondo de projects */
     width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    /* 3 columnas */
     gap: 20px;
-    /* Espacio entre tarjetas */
     max-width: 1100px;
     text-align: center;
 }
 
 .projects h2 {
     grid-column: span 3;
-    /* El título ocupa las 3 columnas */
     font-size: 36px;
     text-align: center;
     margin-bottom: 20px;
 }
 
-/* Para pantallas grandes */
 @media (min-width: 1300px) {
     .projects {
         grid-template-columns: repeat(4, 1fr);
-        /* 4 columnas */
         max-width: none;
-        /* Ocupar todo el ancho */
     }
 
     .projects h2 {
         grid-column: span 4;
-        /* El título ocupa las 4 columnas */
     }
 }
 
@@ -155,29 +145,22 @@ header ul li a {
     .project-card img {
         width: 100%;
         height: 300px;
-        /* Ajusta la altura según lo necesites */
     }
 }
 
-/* Para pantallas pequeñas */
 @media (max-width: 1000px) {
     .projects {
         grid-template-columns: 1fr;
-        /* 1 columna */
     }
 
     .projects h2 {
         grid-column: span 1;
-        /* El título ocupa 1 columna */
     }
 
     .project-card {
         margin: 10px auto;
-        /* Centrar y reducir el margen */
         max-width: 90%;
-        /* Reducir el ancho máximo */
         width: 100%;
-        /* Asegurar que ocupe todo el ancho disponible */
     }
 
     .project-card img {
@@ -193,20 +176,17 @@ header ul li a {
 
     .project-card .info-card p {
         font-size: 14px;
-        /* Reducir el tamaño de fuente */
     }
 
     .project-card .info-card h3 {
         font-size: 18px;
-        /* Reducir el tamaño de fuente */
     }
 
     .project-card .info-card a {
         font-size: 14px;
-        /* Reducir el tamaño de fuente */
         padding: 8px;
-        /* Reducir el padding */
     }
+
     .contact {
         flex-direction: column;
         align-items: center;
@@ -219,11 +199,10 @@ header ul li a {
     }
 }
 
-
 .project-card {
     border-radius: 6px;
     overflow: hidden;
-    background-color: gray;
+    background-color: #F5F5F5; /* Gris claro para el fondo de project-card */
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
     cursor: default;
     transition: all 400ms ease;
@@ -249,13 +228,13 @@ header ul li a {
 
 .project-card .info-card p {
     line-height: 1.5;
-    color: #313131;
+    color: #333333; /* Gris oscuro para el texto de la info-card */
 }
 
 .project-card .info-card h3 {
     font-weight: 400;
     margin-bottom: 15px;
-    color: #000000;
+    color: #000000; /* Negro para el texto de la info-card */
 }
 
 .project-card .info-card a {
@@ -263,64 +242,67 @@ header ul li a {
     display: inline-block;
     padding: 10px;
     margin-top: 10px;
-    border: 1px solid #000000c9;
-    background-color: #ffffffc9;
-    color: #000;
+    border: 1px solid #000000; /* Negro para el borde del enlace */
+    background-color: #FFFFFF; /* Blanco para el fondo del enlace */
+    color: #000000; /* Negro para el texto del enlace */
     border-radius: 4px;
     transition: all 400ms ease;
 }
 
 .project-card .info-card a:hover {
-    background-color: #525252c9;
-    color: #000;
+    background-color: #A6C8FF; /* Azul claro al pasar el ratón sobre el enlace */
+    color: #000000;
 }
+
 .contact {
     display: flex;
-    justify-content: space-between; 
-    padding: 20px; 
-    flex-wrap: wrap; 
-    align-items: flex-start; 
+    justify-content: space-between;
+    padding: 20px;
+    flex-wrap: wrap;
+    align-items: flex-start;
     margin-bottom: 100px;
 }
 
 .info-basica, .form {
-    flex: 1; 
-    max-width: 45%; 
+    flex: 1;
+    max-width: 45%;
+    border: 5px solid #333333; /* Gris oscuro para el borde de info-basica y form */
+    border-radius: 10px;
 }
 
 .info-basica {
-    border-radius: 8px; 
-    padding: 20px; 
+    border-radius: 8px;
+    padding: 20px;
     text-align: left;
     margin-top: 50px;
 }
 
 .contact h2 {
     font-size: 30px;
-    text-align: center; /* Centra el texto dentro del contenedor de contacto */
-    width: 100%; /* Asegura que el título ocupe todo el ancho del contenedor */
-    margin-bottom: 100px; /* Espacio debajo del encabezado */
+    text-align: center;
+    width: 100%;
+    margin-bottom: 100px;
 }
 
 .contact h3 {
     font-size: 19px;
-    margin-bottom: 20px; /* Espacio debajo del encabezado del formulario */
+    margin-bottom: 20px;
 }
 
 .info-basica {
     display: grid;
-    row-gap: 0.5vw; /* Espacio entre filas en la información básica */
+    row-gap: 0.5vw;
 }
 
 .form {
     display: flex;
     flex-direction: column;
     gap: 15px;
-    box-shadow: 0 0 20px rgba(27, 27, 27, 0.6); /* Sombra del formulario */
+    box-shadow: 0 0 20px rgba(27, 27, 27, 0.6);
     padding: 20px;
     max-width: 600px;
-    background-color: #222; /* Fondo oscuro para el formulario */
-    border-radius: 8px; /* Bordes redondeados */
+    background-color: #F5F5F5; /* Gris claro para el fondo del formulario */
+    border-radius: 8px;
 }
 
 .row {
@@ -330,58 +312,58 @@ header ul li a {
 
 .column {
     flex: 1;
-    max-width: 48%; /* Máximo ancho de cada columna */
+    max-width: 48%;
 }
 
 .input-box {
-    margin-bottom: 15px; /* Espacio entre los campos del formulario */
+    margin-bottom: 15px;
 }
 
 .full-width {
-    width: 100%; /* Asegura que los inputs ocupen el 100% del ancho disponible */
+    width: 100%;
 }
 
 label {
     display: block;
-    color: #fff; /* Texto blanco para el label */
+    color: #000000; /* Negro para el texto de los labels */
     margin-bottom: 5px;
 }
 
-input, textarea{
-    width: 100%; /* Asegura que el input ocupe el ancho disponible */
+input, textarea {
+    width: 100%;
     padding: 6px;
     box-sizing: border-box;
     border-radius: 4px;
-    border: 1px solid rgb(0, 0, 0);
+    border: 1px solid #000000; /* Negro para el borde de inputs y textareas */
     background-color: transparent;
-    border-bottom: 2px solid rgb(255, 255, 255); /* Borde inferior blanco */
-    color: #fff; /* Texto blanco en los campos de entrada */
-    transition: width 0.6s ease-in-out; /* Transición suave para el ancho */
+    border-bottom: 2px solid #FFFFFF; /* Blanco para el borde inferior de inputs y textareas */
+    color: #000000; /* Negro para el texto en inputs y textareas */
+    transition: width 0.6s ease-in-out;
 }
 
 input[type=text]:focus {
-    width: 100%; /* Asegura que el input se expanda al 100% en el foco */
+    width: 100%;
 }
 
 button.submit-button {
-    background-color: rgb(255, 255, 255); /* Color de fondo del botón */
-    width: 50%; /* Ancho del botón */
-    color: #333; /* Color del texto del botón */
+    background-color: #FFFFFF; /* Blanco para el fondo del botón */
+    width: 50%;
+    color: #333333; /* Gris oscuro para el texto del botón */
     border: none;
     padding: 10px;
     cursor: pointer;
     border-radius: 4px;
-    transition: background-color 0.3s ease, transform 0.3s ease; /* Transiciones suaves para color de fondo y transformación */
-    display: block; /* Asegura que el botón se comporte como un bloque para centrarlo */
-    margin: 10px auto; /* Margen automático para centrar el botón */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    display: block;
+    margin: 10px auto;
 }
 
 button.submit-button:hover {
-    background-color: rgb(155, 152, 152); /* Color de fondo al pasar el ratón sobre el botón */
+    background-color: #A6C8FF; /* Azul claro al pasar el ratón sobre el botón */
 }
 
 button.submit-button:focus {
-    outline: none; /* Elimina el borde de enfoque predeterminado */
-    background-color: rgb(61, 60, 60); /* Color de fondo al enfocar el botón */
-    transform: scale(1.05); /* Efecto de escala al enfocar el botón */
+    outline: none;
+    background-color: #333333; /* Gris oscuro al enfocar el botón */
+    transform: scale(1.05);
 }

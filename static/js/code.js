@@ -35,6 +35,21 @@ document.getElementById('contactForm').addEventListener('submit', function(event
         .then(response => response.text())
         .then(result => {
             alert('Formulario enviado correctamente');
+            const name = document.getElementById('name'); 
+            const lastname = document.getElementById('lastname'); 
+            const email = document.getElementById('email'); 
+            const mensaje = document.getElementById('mensaje'); 
+
+            name.value = ''; 
+            lastname.value = '';
+            email.value = '';
+            mensaje.value = '';
+            lastname.value = '';
+
+            setTimeout(() => {
+                window.location.href = window.location.href.split('#')[0] + '#header';
+            }, 750);
+
         })
         .catch(error => {
             alert('Error al enviar el formulario: ' + error.message);
