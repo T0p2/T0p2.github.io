@@ -71,7 +71,6 @@ header ul li a {
     position: relative;
     object-fit: cover;
     display: block;
-    vertical-align: middle;
     background-size: cover;
     background-repeat: no-repeat;
     border-style: solid;
