@@ -1,66 +1,28 @@
 body {
     font-family: Arial, sans-serif;
-<<<<<<< HEAD
-<<<<<<< HEAD
     background-color: #FFFFFF; /* Blanco para el fondo principal */
     color: #000000; /* Negro para el texto principal */
-    margin: 0;
-    padding: 0;
-}
-header {
-    -webkit-text-size-adjust: 100%;
-    font-size: 1.5rem; /* Aumenta el tamaño de la fuente */
-    line-height: 1.6;
-    font-family: 'Open Sans', sans-serif;
-=======
-<<<<<<<< HEAD:.history/static/css/style_20240805101809.css
-    background-color: #FFFFFF; /* Blanco para el fondo principal */
-    color: #000000; /* Negro para el texto principal */
-========
-    background-color: #252525;
-    color: #FFFFFF;
->>>>>>>> f3bf724 (adicion de backend con python y flask.):static/css/style.css
-=======
-    background-color: #FFFFFF; /* Blanco para el fondo principal */
-    color: #000000; /* Negro para el texto principal */
->>>>>>> 6de59ea (cambios en el formulario, falta mucho de estructura y estilos)
     margin: 0;
     padding: 0;
 }
 
 header {
-<<<<<<<< HEAD:.history/static/css/style_20240805101809.css
     -webkit-text-size-adjust: 100%;
-    font-size: 1rem;
+    font-size: 1.5rem; /* Aumenta el tamaño de la fuente */
     line-height: 1.6;
-    font-family: 'Open Sans',sans-serif;
->>>>>>> f3bf724 (adicion de backend con python y flask.)
+    font-family: 'Open Sans', sans-serif;
     box-sizing: border-box;
     display: block;
     position: relative;
     color: #ffffff;
     background-color: #1f203a;
     background-image: none;
-<<<<<<< HEAD
     padding: 20px 0; /* Aumenta el padding para dar más espacio vertical */
-=======
-========
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-<<<<<<< HEAD
-    background-color: #5f5a5a;
->>>>>>>> f3bf724 (adicion de backend con python y flask.):static/css/style.css
->>>>>>> f3bf724 (adicion de backend con python y flask.)
-=======
-    background-color: #333333; /* Gris oscuro para el header */
->>>>>>> 6de59ea (cambios en el formulario, falta mucho de estructura y estilos)
 }
 
 header ul {
     display: flex;
     list-style: none;
-<<<<<<< HEAD
     padding: 0;
     margin: 0;
 }
@@ -73,208 +35,142 @@ header ul li a {
     color: #FFFFFF; /* Blanco para el texto de los enlaces en el header */
     text-decoration: none;
     font-size: 1.2rem; /* Aumenta el tamaño de la fuente de los enlaces */
-=======
 }
 
-header ul li {
-    margin: 0 10px;
-}
 
 header ul li a {
-<<<<<<< HEAD
-<<<<<<<< HEAD:.history/static/css/style_20240805101809.css
     color: #FFFFFF; /* Blanco para el texto de los enlaces en el header */
-========
-    color: #ffffff;
->>>>>>>> f3bf724 (adicion de backend con python y flask.):static/css/style.css
-=======
-    color: #FFFFFF; /* Blanco para el texto de los enlaces en el header */
->>>>>>> 6de59ea (cambios en el formulario, falta mucho de estructura y estilos)
     text-decoration: none;
->>>>>>> f3bf724 (adicion de backend con python y flask.)
 }
-
+.fondo-transparente{
+    -webkit-text-size-adjust: 100%;
+    font-size: 1rem;
+    line-height: 1.6;
+    font-family: 'Open Sans',sans-serif;
+    text-align: center;
+    box-sizing: border-box;
+    position: relative;
+    width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    color: #111111;
+    background-color: #F5F5F5;
+    height: 403px;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-image: none;
+    
+}
+.imagen-presentacion{
+    -webkit-text-size-adjust: 100%;
+    font-size: 1rem;
+    line-height: 1.6;
+    font-family: 'Open Sans',sans-serif;
+    text-align: center;
+    box-sizing: border-box;
+    position: relative;
+    object-fit: cover;
+    display: block;
+    vertical-align: middle;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-style: solid;
+    border-width: 8px;
+    color: #111111;
+    border-color: #ffffff;
+    border-radius: 50% !important;
+    stroke: none;
+    width: 422px;
+    height: 422px;
+    background-image: url("https://i.pinimg.com/564x/d5/31/2f/d5312fd8f29829cc131988caf7b41e87.jpg");
+    background-position: 50% 50%;
+    margin: -343px auto 0;
+}
 .hero {
     text-align: center;
-    padding: 100px 20px;
-<<<<<<< HEAD
-<<<<<<< HEAD
     background-color: #FFFFFF; /* Blanco para el fondo de hero */
-    margin-top: 300px;
     margin-bottom: 300px;
-=======
-<<<<<<<< HEAD:.history/static/css/style_20240805101809.css
-    background-color: #FFFFFF; /* Blanco para el fondo de hero */
-    margin-top: 300px;
-    margin-bottom: 300px;
-========
-    background-color: #252525;
-    margin-top: 300px;
-    margin-bottom: 300px;
-    /* Color actualizado */
->>>>>>>> f3bf724 (adicion de backend con python y flask.):static/css/style.css
->>>>>>> f3bf724 (adicion de backend con python y flask.)
-=======
-    background-color: #FFFFFF; /* Blanco para el fondo de hero */
-    margin-top: 300px;
-    margin-bottom: 300px;
->>>>>>> 6de59ea (cambios en el formulario, falta mucho de estructura y estilos)
 }
 
-.hero h1 {
-    font-size: 48px;
-<<<<<<< HEAD
-<<<<<<< HEAD
-    color: #000000; /* Negro para el texto del hero */
-=======
-<<<<<<<< HEAD:.history/static/css/style_20240805101809.css
-    color: #000000; /* Negro para el texto del hero */
-========
-    color: #fff;
->>>>>>>> f3bf724 (adicion de backend con python y flask.):static/css/style.css
->>>>>>> f3bf724 (adicion de backend con python y flask.)
-=======
-    color: #000000; /* Negro para el texto del hero */
->>>>>>> 6de59ea (cambios en el formulario, falta mucho de estructura y estilos)
-    font-family: 'Arial', sans-serif;
+.text{
+    -webkit-text-size-adjust: 100%;
     text-align: center;
-    margin: 0;
-    padding: 20px 0;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    color: inherit;
+    font-family: Roboto,sans-serif;
+    word-wrap: break-word;
+    position: relative;
+    padding: 0;
+    line-height: 1.1;
     text-transform: uppercase;
-    line-height: 1.2;
-    letter-spacing: 1px;
-    transition: color 0.5s ease, text-shadow 0.5s ease;
+    font-weight: 300;
+    letter-spacing: 4px;
+    font-size: 3rem;
+    width: 554px;
+    margin: 60px auto 0;
 }
-
-.hero h1:hover {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<<< HEAD:.history/static/css/style_20240805101809.css
->>>>>>> f3bf724 (adicion de backend con python y flask.)
-    color: #999999; /* Gris claro al pasar el ratón */
-    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8); /* Sombra del texto más pronunciada al pasar el ratón */
-}
-
-.skills {
-    padding: 50px 20px;
-    background-color: #F5F5F5; /* Gris claro para el fondo de skills */
-    padding-top: 300px;
-    padding-bottom: 300px;
-<<<<<<< HEAD
-=======
-========
-    color: rgb(134, 134, 134); /* Cambia el color al pasar el ratón */
-    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8); /* Cambia la sombra del texto al pasar el ratón */
-=======
-    color: #999999; /* Gris claro al pasar el ratón */
-    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.8); /* Sombra del texto más pronunciada al pasar el ratón */
->>>>>>> 6de59ea (cambios en el formulario, falta mucho de estructura y estilos)
-}
-
-.skills {
-    padding: 50px 20px;
-<<<<<<< HEAD
-    background-color: #252525;
-    margin: 300px;
-    /* Color actualizado */
->>>>>>>> f3bf724 (adicion de backend con python y flask.):static/css/style.css
->>>>>>> f3bf724 (adicion de backend con python y flask.)
-=======
-    background-color: #F5F5F5; /* Gris claro para el fondo de skills */
-    padding-top: 300px;
-    padding-bottom: 300px;
->>>>>>> 6de59ea (cambios en el formulario, falta mucho de estructura y estilos)
-}
-
-.skills h2 {
-    font-size: 32px;
+.subtext{
+    -webkit-text-size-adjust: 100%;
+    font-size: 1rem;
+    line-height: 1.6;
+    font-family: 'Open Sans',sans-serif;
+    color: #111111;
     text-align: center;
-<<<<<<< HEAD
-<<<<<<< HEAD
-    color: #000000; /* Negro para el texto del título de skills */
-=======
-<<<<<<<< HEAD:.history/static/css/style_20240805101809.css
-    color: #000000; /* Negro para el texto del título de skills */
-========
->>>>>>>> f3bf724 (adicion de backend con python y flask.):static/css/style.css
->>>>>>> f3bf724 (adicion de backend con python y flask.)
-=======
-    color: #000000; /* Negro para el texto del título de skills */
->>>>>>> 6de59ea (cambios en el formulario, falta mucho de estructura y estilos)
+    box-sizing: border-box;
+    padding: 0;
+    word-wrap: break-word;
+    position: relative;
+    width: 543px;
+    margin: 20px auto 0;
+}.skills {
+    padding: 50px 0;
+    background-color: #F5F5F5;
+    color: #000000;
+    margin-bottom: 200px;
 }
 
 .skills-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.skills h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #000000;
+}
+
+.skills-content {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 20px;
-    gap: 20px;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<<< HEAD:.history/static/css/style_20240805101809.css
-========
-    /* Espacio entre los contenedores */
->>>>>>>> f3bf724 (adicion de backend con python y flask.):static/css/style.css
->>>>>>> f3bf724 (adicion de backend con python y flask.)
-=======
->>>>>>> 6de59ea (cambios en el formulario, falta mucho de estructura y estilos)
+    flex-wrap: wrap;
+    justify-content: space-around;
+ 
 }
 
-.skills-text,
-.skills-wordcloud {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-<<<<<<< HEAD
-<<<<<<< HEAD
-    background-color: #000000; /* Negro para el fondo de los contenedores de skills */
-    border-radius: 10px;
-=======
-<<<<<<<< HEAD:.history/static/css/style_20240805101809.css
-    background-color: #000000; /* Negro para el fondo de los contenedores de skills */
-    border-radius: 10px;
-========
-    background-color: #121212;
-    /* Fondo oscuro para el contenedor */
-    border-radius: 10px;
-    /* Bordes redondeados */
->>>>>>>> f3bf724 (adicion de backend con python y flask.):static/css/style.css
->>>>>>> f3bf724 (adicion de backend con python y flask.)
-=======
-    background-color: #000000; /* Negro para el fondo de los contenedores de skills */
-    border-radius: 10px;
->>>>>>> 6de59ea (cambios en el formulario, falta mucho de estructura y estilos)
+.skill {
+    width: 45%;
+    margin-bottom: 20px;
 }
 
-.skills-text p {
-    margin: 10px 0;
-    padding: 10px;
-    text-align: left;
-    font-size: 1.4vw;
-<<<<<<< HEAD
-<<<<<<< HEAD
-    color: #FFFFFF; /* Blanco para el texto dentro de skills-text */
-=======
-<<<<<<<< HEAD:.history/static/css/style_20240805101809.css
-    color: #FFFFFF; /* Blanco para el texto dentro de skills-text */
-========
->>>>>>>> f3bf724 (adicion de backend con python y flask.):static/css/style.css
->>>>>>> f3bf724 (adicion de backend con python y flask.)
-=======
-    color: #FFFFFF; /* Blanco para el texto dentro de skills-text */
->>>>>>> 6de59ea (cambios en el formulario, falta mucho de estructura y estilos)
+.skill span {
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
 }
 
-#wordCloud {
+.skill-bar {
     width: 100%;
-    height: 100%;
+    background-color: #c5c5c5;
+    border-radius: 5px;
+    overflow: hidden;
 }
+
+.skill-level {
+    height: 10px;
+    background-color: #1f203a;
+}
+
 
 @media (max-width: 768px) {
     .skills-container {
@@ -290,93 +186,36 @@ header ul li a {
 .projects {
     margin-bottom: 200px;
     padding: 50px 20px;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<<< HEAD:.history/static/css/style_20240805101809.css
->>>>>>> f3bf724 (adicion de backend con python y flask.)
-    background-color: #F5F5F5; /* Gris claro para el fondo de projects */
+    background-color: #ffffff; /* Gris claro para el fondo de projects */
     width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-<<<<<<< HEAD
-=======
-========
-    background-color: #1e1e1e;
-=======
-    background-color: #F5F5F5; /* Gris claro para el fondo de projects */
->>>>>>> 6de59ea (cambios en el formulario, falta mucho de estructura y estilos)
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-<<<<<<< HEAD
-    /* Espacio entre tarjetas */
->>>>>>>> f3bf724 (adicion de backend con python y flask.):static/css/style.css
->>>>>>> f3bf724 (adicion de backend con python y flask.)
-=======
->>>>>>> 6de59ea (cambios en el formulario, falta mucho de estructura y estilos)
     max-width: 1100px;
     text-align: center;
 }
 
 .projects h2 {
     grid-column: span 3;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<<< HEAD:.history/static/css/style_20240805101809.css
-========
-    /* El título ocupa las 3 columnas */
->>>>>>>> f3bf724 (adicion de backend con python y flask.):static/css/style.css
->>>>>>> f3bf724 (adicion de backend con python y flask.)
-=======
->>>>>>> 6de59ea (cambios en el formulario, falta mucho de estructura y estilos)
     font-size: 36px;
     text-align: center;
     margin-bottom: 20px;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<<< HEAD:.history/static/css/style_20240805101809.css
->>>>>>> f3bf724 (adicion de backend con python y flask.)
 @media (min-width: 1300px) {
     .projects {
         grid-template-columns: repeat(4, 1fr);
         max-width: none;
-<<<<<<< HEAD
-=======
-========
-/* Para pantallas grandes */
-=======
->>>>>>> 6de59ea (cambios en el formulario, falta mucho de estructura y estilos)
-@media (min-width: 1300px) {
-    .projects {
-        grid-template-columns: repeat(4, 1fr);
-        max-width: none;
-<<<<<<< HEAD
-        /* Ocupar todo el ancho */
->>>>>>>> f3bf724 (adicion de backend con python y flask.):static/css/style.css
->>>>>>> f3bf724 (adicion de backend con python y flask.)
-=======
->>>>>>> 6de59ea (cambios en el formulario, falta mucho de estructura y estilos)
     }
 
     .projects h2 {
         grid-column: span 4;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<<< HEAD:.history/static/css/style_20240805101809.css
-========
-        /* El título ocupa las 4 columnas */
->>>>>>>> f3bf724 (adicion de backend con python y flask.):static/css/style.css
->>>>>>> f3bf724 (adicion de backend con python y flask.)
-=======
->>>>>>> 6de59ea (cambios en el formulario, falta mucho de estructura y estilos)
+    }
+    .skills-text p {
+        margin: 10px 0;
+        padding: 10px;
+        text-align: left;
+        font-size: 20px;
     }
 }
 
@@ -384,73 +223,24 @@ header ul li a {
     .project-card img {
         width: 100%;
         height: 300px;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<<< HEAD:.history/static/css/style_20240805101809.css
->>>>>>> f3bf724 (adicion de backend con python y flask.)
     }
+    
 }
 
 @media (max-width: 1000px) {
+    
     .projects {
         grid-template-columns: 1fr;
-<<<<<<< HEAD
-=======
-========
-        /* Ajusta la altura según lo necesites */
-=======
->>>>>>> 6de59ea (cambios en el formulario, falta mucho de estructura y estilos)
-    }
-}
-
-@media (max-width: 1000px) {
-    .projects {
-        grid-template-columns: 1fr;
-<<<<<<< HEAD
-        /* 1 columna */
->>>>>>>> f3bf724 (adicion de backend con python y flask.):static/css/style.css
->>>>>>> f3bf724 (adicion de backend con python y flask.)
-=======
->>>>>>> 6de59ea (cambios en el formulario, falta mucho de estructura y estilos)
     }
 
     .projects h2 {
         grid-column: span 1;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<<< HEAD:.history/static/css/style_20240805101809.css
-========
-        /* El título ocupa 1 columna */
->>>>>>>> f3bf724 (adicion de backend con python y flask.):static/css/style.css
->>>>>>> f3bf724 (adicion de backend con python y flask.)
-=======
->>>>>>> 6de59ea (cambios en el formulario, falta mucho de estructura y estilos)
     }
 
     .project-card {
         margin: 10px auto;
-<<<<<<< HEAD
-<<<<<<< HEAD
         max-width: 90%;
         width: 100%;
-=======
-<<<<<<<< HEAD:.history/static/css/style_20240805101809.css
-        max-width: 90%;
-        width: 100%;
-========
-        /* Centrar y reducir el margen */
-=======
->>>>>>> 6de59ea (cambios en el formulario, falta mucho de estructura y estilos)
-        max-width: 90%;
-        width: 100%;
-<<<<<<< HEAD
-        /* Asegurar que ocupe todo el ancho disponible */
->>>>>>>> f3bf724 (adicion de backend con python y flask.):static/css/style.css
->>>>>>> f3bf724 (adicion de backend con python y flask.)
-=======
->>>>>>> 6de59ea (cambios en el formulario, falta mucho de estructura y estilos)
     }
 
     .project-card img {
@@ -466,56 +256,17 @@ header ul li a {
 
     .project-card .info-card p {
         font-size: 14px;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<<< HEAD:.history/static/css/style_20240805101809.css
-========
-        /* Reducir el tamaño de fuente */
->>>>>>>> f3bf724 (adicion de backend con python y flask.):static/css/style.css
->>>>>>> f3bf724 (adicion de backend con python y flask.)
-=======
->>>>>>> 6de59ea (cambios en el formulario, falta mucho de estructura y estilos)
     }
 
     .project-card .info-card h3 {
         font-size: 18px;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<<< HEAD:.history/static/css/style_20240805101809.css
-========
-        /* Reducir el tamaño de fuente */
->>>>>>>> f3bf724 (adicion de backend con python y flask.):static/css/style.css
->>>>>>> f3bf724 (adicion de backend con python y flask.)
-=======
->>>>>>> 6de59ea (cambios en el formulario, falta mucho de estructura y estilos)
     }
 
     .project-card .info-card a {
         font-size: 14px;
-<<<<<<< HEAD
-<<<<<<< HEAD
         padding: 8px;
     }
 
-=======
-<<<<<<<< HEAD:.history/static/css/style_20240805101809.css
-        padding: 8px;
-    }
-
-========
-        /* Reducir el tamaño de fuente */
-=======
->>>>>>> 6de59ea (cambios en el formulario, falta mucho de estructura y estilos)
-        padding: 8px;
-    }
-<<<<<<< HEAD
->>>>>>>> f3bf724 (adicion de backend con python y flask.):static/css/style.css
->>>>>>> f3bf724 (adicion de backend con python y flask.)
-=======
-
->>>>>>> 6de59ea (cambios en el formulario, falta mucho de estructura y estilos)
     .contact {
         flex-direction: column;
         align-items: center;
@@ -528,31 +279,10 @@ header ul li a {
     }
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<<< HEAD:.history/static/css/style_20240805101809.css
->>>>>>> f3bf724 (adicion de backend con python y flask.)
 .project-card {
     border-radius: 6px;
     overflow: hidden;
     background-color: #F5F5F5; /* Gris claro para el fondo de project-card */
-<<<<<<< HEAD
-=======
-========
-
-.project-card {
-    border-radius: 6px;
-    overflow: hidden;
-    background-color: gray;
->>>>>>>> f3bf724 (adicion de backend con python y flask.):static/css/style.css
->>>>>>> f3bf724 (adicion de backend con python y flask.)
-=======
-.project-card {
-    border-radius: 6px;
-    overflow: hidden;
-    background-color: #F5F5F5; /* Gris claro para el fondo de project-card */
->>>>>>> 6de59ea (cambios en el formulario, falta mucho de estructura y estilos)
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
     cursor: default;
     transition: all 400ms ease;
@@ -578,37 +308,13 @@ header ul li a {
 
 .project-card .info-card p {
     line-height: 1.5;
-<<<<<<< HEAD
-<<<<<<< HEAD
     color: #333333; /* Gris oscuro para el texto de la info-card */
-=======
-<<<<<<<< HEAD:.history/static/css/style_20240805101809.css
-    color: #333333; /* Gris oscuro para el texto de la info-card */
-========
-    color: #313131;
->>>>>>>> f3bf724 (adicion de backend con python y flask.):static/css/style.css
->>>>>>> f3bf724 (adicion de backend con python y flask.)
-=======
-    color: #333333; /* Gris oscuro para el texto de la info-card */
->>>>>>> 6de59ea (cambios en el formulario, falta mucho de estructura y estilos)
 }
 
 .project-card .info-card h3 {
     font-weight: 400;
     margin-bottom: 15px;
-<<<<<<< HEAD
-<<<<<<< HEAD
     color: #000000; /* Negro para el texto de la info-card */
-=======
-<<<<<<<< HEAD:.history/static/css/style_20240805101809.css
-    color: #000000; /* Negro para el texto de la info-card */
-========
-    color: #000000;
->>>>>>>> f3bf724 (adicion de backend con python y flask.):static/css/style.css
->>>>>>> f3bf724 (adicion de backend con python y flask.)
-=======
-    color: #000000; /* Negro para el texto de la info-card */
->>>>>>> 6de59ea (cambios en el formulario, falta mucho de estructura y estilos)
 }
 
 .project-card .info-card a {
@@ -616,37 +322,14 @@ header ul li a {
     display: inline-block;
     padding: 10px;
     margin-top: 10px;
-<<<<<<< HEAD
-<<<<<<< HEAD
     border: 1px solid #000000; /* Negro para el borde del enlace */
     background-color: #FFFFFF; /* Blanco para el fondo del enlace */
     color: #000000; /* Negro para el texto del enlace */
-=======
-<<<<<<<< HEAD:.history/static/css/style_20240805101809.css
-    border: 1px solid #000000; /* Negro para el borde del enlace */
-    background-color: #FFFFFF; /* Blanco para el fondo del enlace */
-    color: #000000; /* Negro para el texto del enlace */
-========
-    border: 1px solid #000000c9;
-    background-color: #ffffffc9;
-    color: #000;
->>>>>>>> f3bf724 (adicion de backend con python y flask.):static/css/style.css
->>>>>>> f3bf724 (adicion de backend con python y flask.)
-=======
-    border: 1px solid #000000; /* Negro para el borde del enlace */
-    background-color: #FFFFFF; /* Blanco para el fondo del enlace */
-    color: #000000; /* Negro para el texto del enlace */
->>>>>>> 6de59ea (cambios en el formulario, falta mucho de estructura y estilos)
     border-radius: 4px;
     transition: all 400ms ease;
 }
 
 .project-card .info-card a:hover {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<<< HEAD:.history/static/css/style_20240805101809.css
->>>>>>> f3bf724 (adicion de backend con python y flask.)
     background-color: #A6C8FF; /* Azul claro al pasar el ratón sobre el enlace */
     color: #000000;
 }
@@ -657,166 +340,49 @@ header ul li a {
     padding: 20px;
     flex-wrap: wrap;
     align-items: flex-start;
-<<<<<<< HEAD
-=======
-========
-    background-color: #525252c9;
-    color: #000;
-=======
-    background-color: #A6C8FF; /* Azul claro al pasar el ratón sobre el enlace */
-    color: #000000;
->>>>>>> 6de59ea (cambios en el formulario, falta mucho de estructura y estilos)
-}
-
-.contact {
-    display: flex;
-<<<<<<< HEAD
-    justify-content: space-between; 
-    padding: 20px; 
-    flex-wrap: wrap; 
-    align-items: flex-start; 
->>>>>>>> f3bf724 (adicion de backend con python y flask.):static/css/style.css
->>>>>>> f3bf724 (adicion de backend con python y flask.)
-=======
-    justify-content: space-between;
-    padding: 20px;
-    flex-wrap: wrap;
-    align-items: flex-start;
->>>>>>> 6de59ea (cambios en el formulario, falta mucho de estructura y estilos)
     margin-bottom: 100px;
 }
 
 .info-basica, .form {
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<<< HEAD:.history/static/css/style_20240805101809.css
->>>>>>> f3bf724 (adicion de backend con python y flask.)
-=======
->>>>>>> 6de59ea (cambios en el formulario, falta mucho de estructura y estilos)
     flex: 1;
     max-width: 45%;
     border: 5px solid #333333; /* Gris oscuro para el borde de info-basica y form */
     border-radius: 10px;
-<<<<<<< HEAD
 }
 
 .info-basica {
     border-radius: 8px;
     padding: 20px;
-<<<<<<< HEAD
-=======
-========
-    flex: 1; 
-    max-width: 45%; 
-}
-
-.info-basica {
-    border-radius: 8px; 
-    padding: 20px; 
->>>>>>>> f3bf724 (adicion de backend con python y flask.):static/css/style.css
->>>>>>> f3bf724 (adicion de backend con python y flask.)
-=======
-}
-
-.info-basica {
-    border-radius: 8px;
-    padding: 20px;
->>>>>>> 6de59ea (cambios en el formulario, falta mucho de estructura y estilos)
     text-align: left;
     margin-top: 50px;
 }
 
 .contact h2 {
     font-size: 30px;
-<<<<<<< HEAD
-<<<<<<< HEAD
     text-align: center;
     width: 100%;
     margin-bottom: 100px;
-=======
-<<<<<<<< HEAD:.history/static/css/style_20240805101809.css
-    text-align: center;
-    width: 100%;
-    margin-bottom: 100px;
-========
-    text-align: center; /* Centra el texto dentro del contenedor de contacto */
-    width: 100%; /* Asegura que el título ocupe todo el ancho del contenedor */
-    margin-bottom: 100px; /* Espacio debajo del encabezado */
->>>>>>>> f3bf724 (adicion de backend con python y flask.):static/css/style.css
->>>>>>> f3bf724 (adicion de backend con python y flask.)
-=======
-    text-align: center;
-    width: 100%;
-    margin-bottom: 100px;
->>>>>>> 6de59ea (cambios en el formulario, falta mucho de estructura y estilos)
 }
 
 .contact h3 {
     font-size: 19px;
-<<<<<<< HEAD
-<<<<<<< HEAD
     margin-bottom: 20px;
-=======
-<<<<<<<< HEAD:.history/static/css/style_20240805101809.css
-    margin-bottom: 20px;
-========
-    margin-bottom: 20px; /* Espacio debajo del encabezado del formulario */
->>>>>>>> f3bf724 (adicion de backend con python y flask.):static/css/style.css
->>>>>>> f3bf724 (adicion de backend con python y flask.)
-=======
-    margin-bottom: 20px;
->>>>>>> 6de59ea (cambios en el formulario, falta mucho de estructura y estilos)
 }
 
 .info-basica {
     display: grid;
-<<<<<<< HEAD
-<<<<<<< HEAD
     row-gap: 0.5vw;
-=======
-<<<<<<<< HEAD:.history/static/css/style_20240805101809.css
-    row-gap: 0.5vw;
-========
-    row-gap: 0.5vw; /* Espacio entre filas en la información básica */
->>>>>>>> f3bf724 (adicion de backend con python y flask.):static/css/style.css
->>>>>>> f3bf724 (adicion de backend con python y flask.)
-=======
-    row-gap: 0.5vw;
->>>>>>> 6de59ea (cambios en el formulario, falta mucho de estructura y estilos)
 }
 
 .form {
     display: flex;
     flex-direction: column;
     gap: 15px;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<<< HEAD:.history/static/css/style_20240805101809.css
->>>>>>> f3bf724 (adicion de backend con python y flask.)
     box-shadow: 0 0 20px rgba(27, 27, 27, 0.6);
     padding: 20px;
     max-width: 600px;
     background-color: #F5F5F5; /* Gris claro para el fondo del formulario */
     border-radius: 8px;
-<<<<<<< HEAD
-=======
-========
-    box-shadow: 0 0 20px rgba(27, 27, 27, 0.6); /* Sombra del formulario */
-    padding: 20px;
-    max-width: 600px;
-    background-color: #222; /* Fondo oscuro para el formulario */
-    border-radius: 8px; /* Bordes redondeados */
->>>>>>>> f3bf724 (adicion de backend con python y flask.):static/css/style.css
->>>>>>> f3bf724 (adicion de backend con python y flask.)
-=======
-    box-shadow: 0 0 20px rgba(27, 27, 27, 0.6);
-    padding: 20px;
-    max-width: 600px;
-    background-color: #F5F5F5; /* Gris claro para el fondo del formulario */
-    border-radius: 8px;
->>>>>>> 6de59ea (cambios en el formulario, falta mucho de estructura y estilos)
 }
 
 .row {
@@ -826,11 +392,6 @@ header ul li a {
 
 .column {
     flex: 1;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<<< HEAD:.history/static/css/style_20240805101809.css
->>>>>>> f3bf724 (adicion de backend con python y flask.)
     max-width: 48%;
 }
 
@@ -840,36 +401,10 @@ header ul li a {
 
 .full-width {
     width: 100%;
-<<<<<<< HEAD
-=======
-========
-    max-width: 48%; /* Máximo ancho de cada columna */
-=======
-    max-width: 48%;
->>>>>>> 6de59ea (cambios en el formulario, falta mucho de estructura y estilos)
-}
-
-.input-box {
-    margin-bottom: 15px;
-}
-
-.full-width {
-<<<<<<< HEAD
-    width: 100%; /* Asegura que los inputs ocupen el 100% del ancho disponible */
->>>>>>>> f3bf724 (adicion de backend con python y flask.):static/css/style.css
->>>>>>> f3bf724 (adicion de backend con python y flask.)
-=======
-    width: 100%;
->>>>>>> 6de59ea (cambios en el formulario, falta mucho de estructura y estilos)
 }
 
 label {
     display: block;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<<< HEAD:.history/static/css/style_20240805101809.css
->>>>>>> f3bf724 (adicion de backend con python y flask.)
     color: #000000; /* Negro para el texto de los labels */
     margin-bottom: 5px;
 }
@@ -894,53 +429,10 @@ button.submit-button {
     background-color: #FFFFFF; /* Blanco para el fondo del botón */
     width: 50%;
     color: #333333; /* Gris oscuro para el texto del botón */
-<<<<<<< HEAD
-=======
-========
-    color: #fff; /* Texto blanco para el label */
-=======
-    color: #000000; /* Negro para el texto de los labels */
->>>>>>> 6de59ea (cambios en el formulario, falta mucho de estructura y estilos)
-    margin-bottom: 5px;
-}
-
-input, textarea {
-    width: 100%;
-    padding: 6px;
-    box-sizing: border-box;
-    border-radius: 4px;
-    border: 1px solid #000000; /* Negro para el borde de inputs y textareas */
-    background-color: transparent;
-    border-bottom: 2px solid #FFFFFF; /* Blanco para el borde inferior de inputs y textareas */
-    color: #000000; /* Negro para el texto en inputs y textareas */
-    transition: width 0.6s ease-in-out;
-}
-
-input[type=text]:focus {
-    width: 100%;
-}
-
-button.submit-button {
-<<<<<<< HEAD
-    background-color: rgb(255, 255, 255); /* Color de fondo del botón */
-    width: 50%; /* Ancho del botón */
-    color: #333; /* Color del texto del botón */
->>>>>>>> f3bf724 (adicion de backend con python y flask.):static/css/style.css
->>>>>>> f3bf724 (adicion de backend con python y flask.)
-=======
-    background-color: #FFFFFF; /* Blanco para el fondo del botón */
-    width: 50%;
-    color: #333333; /* Gris oscuro para el texto del botón */
->>>>>>> 6de59ea (cambios en el formulario, falta mucho de estructura y estilos)
     border: none;
     padding: 10px;
     cursor: pointer;
     border-radius: 4px;
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<<< HEAD:.history/static/css/style_20240805101809.css
->>>>>>> f3bf724 (adicion de backend con python y flask.)
     transition: background-color 0.3s ease, transform 0.3s ease;
     display: block;
     margin: 10px auto;
@@ -954,33 +446,4 @@ button.submit-button:focus {
     outline: none;
     background-color: #333333; /* Gris oscuro al enfocar el botón */
     transform: scale(1.05);
-<<<<<<< HEAD
-=======
-========
-    transition: background-color 0.3s ease, transform 0.3s ease; /* Transiciones suaves para color de fondo y transformación */
-    display: block; /* Asegura que el botón se comporte como un bloque para centrarlo */
-    margin: 10px auto; /* Margen automático para centrar el botón */
-=======
-    transition: background-color 0.3s ease, transform 0.3s ease;
-    display: block;
-    margin: 10px auto;
->>>>>>> 6de59ea (cambios en el formulario, falta mucho de estructura y estilos)
-}
-
-button.submit-button:hover {
-    background-color: #A6C8FF; /* Azul claro al pasar el ratón sobre el botón */
-}
-
-button.submit-button:focus {
-<<<<<<< HEAD
-    outline: none; /* Elimina el borde de enfoque predeterminado */
-    background-color: rgb(61, 60, 60); /* Color de fondo al enfocar el botón */
-    transform: scale(1.05); /* Efecto de escala al enfocar el botón */
->>>>>>>> f3bf724 (adicion de backend con python y flask.):static/css/style.css
->>>>>>> f3bf724 (adicion de backend con python y flask.)
-=======
-    outline: none;
-    background-color: #333333; /* Gris oscuro al enfocar el botón */
-    transform: scale(1.05);
->>>>>>> 6de59ea (cambios en el formulario, falta mucho de estructura y estilos)
 }
