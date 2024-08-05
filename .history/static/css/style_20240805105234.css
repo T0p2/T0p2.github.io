@@ -428,6 +428,8 @@ input[type=text]:focus {
 }
 
 button.submit-button {
+    
+
     -webkit-text-size-adjust: 100%;
     box-sizing: border-box;
     cursor: pointer;
